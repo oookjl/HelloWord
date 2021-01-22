@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" Connection="1" SerialNo="0" IP="" TargetDevice="STM32F427II" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\Learn APP\CubeMX\program\MystreeingTx\MDK-ARM\Mystreeing\Mystreeing.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="angle" Address="0x20000000" Type="ushort" TypeID="7" Size="2" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="4" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="5" File="..\Src\get_motor.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed_rpm" Address="0x20000002" Type="ushort" TypeID="7" Size="2" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="6" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="5" File="..\Src\get_motor.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="current_get" Address="0x20000004" Type="ushort" TypeID="7" Size="2" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="8" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="5" File="..\Src\get_motor.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

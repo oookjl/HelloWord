@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp
+"snail\startup_stm32f427xx.o"
+"snail\main.o"
+"snail\gpio.o"
+"snail\tim.o"
+"snail\stm32f4xx_it.o"
+"snail\stm32f4xx_hal_msp.o"
+"snail\stm32f4xx_hal_tim.o"
+"snail\stm32f4xx_hal_tim_ex.o"
+"snail\stm32f4xx_hal_rcc.o"
+"snail\stm32f4xx_hal_rcc_ex.o"
+"snail\stm32f4xx_hal_flash.o"
+"snail\stm32f4xx_hal_flash_ex.o"
+"snail\stm32f4xx_hal_flash_ramfunc.o"
+"snail\stm32f4xx_hal_gpio.o"
+"snail\stm32f4xx_hal_dma_ex.o"
+"snail\stm32f4xx_hal_dma.o"
+"snail\stm32f4xx_hal_pwr.o"
+"snail\stm32f4xx_hal_pwr_ex.o"
+"snail\stm32f4xx_hal_cortex.o"
+"snail\stm32f4xx_hal.o"
+"snail\stm32f4xx_hal_exti.o"
+"snail\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "snail\snail.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "snail.map" -o snail\snail.axf
